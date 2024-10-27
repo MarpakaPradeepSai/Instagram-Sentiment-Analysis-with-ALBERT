@@ -11,7 +11,7 @@ def download_file_from_github(url, local_path):
         f.write(response.content)
 
 # URLs of your model files on GitHub
-repo_url = 'https://github.com/MarpakaPradeepSai/Instagram-Sentiment-Analysis-with-ALBERTT/raw/main/ALBERT_model'
+repo_url = 'https://github.com/MarpakaPradeepSai/Instagram-Sentiment-Analysis-with-ALBERT/raw/main/ALBERT_model'
 files = ['config.json', 'model.safetensors', 'special_tokens_map.json', 'tokenizer_config.json', 'spiece.model']
 
 # Download each file
